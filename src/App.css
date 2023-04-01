@@ -1,38 +1,345 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body{
+    font-family: 'PT Serif', serif !important;
+    background:#181818 !important;
+}
+img {
+    pointer-events: none;
   }
+/* nav style */
+.navbar{
+    position: absolute !important;
+    top: 0;
+    width: 100% !important;
+    background: transparent !important;
+    z-index: 999;
+}
+.navbar a{
+    color:white !important
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.menu-items a:hover{
+    color: rgb(0, 204, 61) !important;
+    transition: .2s ease-in-out all;
+
+}
+@media screen and (max-width:1023px) {
+    .menu-items-mobile{
+        display: flex !important;
+        flex-direction: column;
+        align-items:start !important;
+        justify-content: left !important;
+        background-color: #494949;
+        color: #000;
+    }   
+    .menu-items-mobile a{
+        width: 100%;
+    }
+    .menu-items-mobile a:hover{ 
+        background-color: rgb(85, 85, 85);
+        color: white !important;
+        transition: .2s ease-in-out all;
+    }   
+}
+
+/***********************************************************************/
+
+/* home style */
+.home-parent{
+    width: 100%;
+    background-image: url("/src/images/background.avif");
+    height: 100% !important;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+} 
+
+.home-parent .home-journey{
+    position: relative;
+    left: 23% !important;
+    top: 50%;
+    width: 60%;
+
+}
+
+/* Big Screens */
+@media screen and (min-width:1380px) {
+    .home-parent{
+        height: 93.5%;
+    } 
+    .home-journey button{
+            font-size: 15px !important;
+    }
+        
+}
+
+/* Laptops */
+@media screen and (min-width:1024px) and (max-width:1379px) {
+    .home-parent{
+        height: 93.9%;
+        } 
+    .home-parent .home-journey{
+            top: 80%;
+            left: 23%;
+            position: relative;
+    }
+
+    .home-journey button{
+        margin: 1%;
+            font-size: 14px !important;
+        }
+}
+
+/* Tabltes */
+@media screen and (min-width:771px) and (max-width:1023px) {
+    body{
+        overflow-x: hidden;
+    }
+    .home-parent{
+        width: 132%;
+        height: 100% !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover
+         } 
+    .home-journey h2{
+        padding-top: 35%;
+        padding-left: 0;
+        left: -10%;
+        position: relative;
+        font-size: 45px;
+    }
+    .description{
+        display: none;
+    }
+  
+    .home-journey button{
+        left: -30% !important;
+        bottom:-400px;
+        position: absolute;
+        font-size: 20px;
+    }
+}
+
+/* mobiles */
+@media screen and (max-width:770px) {
+    body{
+        overflow-x: hidden;
+    }
+    .home-parent{
+        height: 94.3vh;
+        background-position: right;
+        width: 148vh;
+            }
+   .home-journey{
+    left: 0 !important;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 100% !important;
+   }
+   .home-journey h2{
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 25%;
+   }
+   .home-journey button{
+    font-size: 12px;
+    position: absolute;
+    left: -22% !important;
+    bottom: -255px;
+}
+
+}
+
+/***********************************************************************/
+
+
+/* programmes style */
+.progs-parent{
+    background-color:181818;
+    padding-top: 5%;
+
+}
+.week-days {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    margin: 2%;
+    flex-wrap: wrap;
+}
+.week-days .day{
+    padding: 2%;
+    background-color: #dbd6d6;
+    color: black;
+    margin: 2%;
+    border-radius: 10px;
+    min-width: 102px;
+    text-align: center;
+    cursor: pointer;
+}
+.week-days .day:hover{
+    background-color:rgb(0, 107, 32);
+    transition: .3s ease-in-out all;
+    color:white;
+}
+/* mobiles */
+@media screen and (min-width:770px) {
+   
+    .week-days {
+        width: 50%;
+        margin: auto;
+        flex-wrap: nowrap;
+    }
+}
+
+
+.week-progs{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+.week-progs .sport{
+    border-radius: 2%;
+    border: 4px solid #181818;
+    background-color:#f5f3f3;
+    text-align: center;
+    padding: 2%;
+}
+.week-progs .sport img{
+    padding: 3%;
+    max-width: 60px;
+    height: 30%;
+}
+
+.week-progs .sport:hover{
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+
+/***********************************************************************/
+
+
+/* trainers style */
+.triners-parent{
+    padding-top:5% ;
+    background-color: #181818;
+}
+.triner{
+    position: relative;
+    max-height: 300px;
+}
+.triner img{
+    max-height: 100%;
+    width: 100%;
+    background-color: black;
+    border-radius: 2%;
+    object-fit: contain;
+}
+.triner .overlay{
+    opacity: 0;
+    position: absolute;
+    bottom: 0px;
+    width: 94% !important;
+    height: 0;
+    text-align: center;   
+    background-color: rgb(19, 19, 19);
+}
+.triner .overlay ul{
+    width: 90%;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.triner .overlay ul li{
+    transition: .1s all ease-in-out;
+}
+.triner .overlay ul li:hover{
+    transform: scale(1.5);
+}
+.triner:hover .overlay{
+    opacity: 1;
+    height: 60%;
+    width: 93%;
+    transition: all .2s linear;
+}
+.overlay .btn{
+    font-weight: 900;
+    font-size: 16px;
+}
+/* Tabltes */
+@media screen and (min-width:771px) and (max-width:1023px) {
+    .triners-parent{
+        position: absolute;
+        top: 15%;
+        width: 100%;
+
+    }
+    .triner:hover .overlay{
+        opacity: 1;
+        height: 70%;
+        width: 90% !important;
+        transition: all .2s linear;
+    }
+    .overlay h3{
+        font-size: 17px !important;
+    }
+}
+
+
+
+
+/***********************************************************************/
+/* About Style */
+.about-parent{
+    padding-top: 8%;
+}
+@media screen and (max-width:790px) {
+    .about-parent{
+        padding-top: 28%;
+    }
+}
+
+
+/***********************************************************************/
+/* contact Style */
+
+form{
+    padding: 5%;
+    -webkit-box-shadow: 7px -2px 36px 6px rgb(29, 29, 29);
+    -moz-box-shadow: 7px -2px 36px 6px rgb(24, 24, 24);
+    box-shadow: 7px -2px 36px 6px rgb(49, 49, 49);
+    margin-top: 25%;
+}
+
+form input ,form textarea{
+    border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: solid .3px #636363;
+  background-color: #181818;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+input:focus , textarea:focus{
+    outline: none;
+  }
+@media screen and (min-width:790px) {
+    form{
+        margin-top: 10%;
+        max-width: 550px !important;
+    }
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media screen and (min-width:771px) and (max-width:1023px) {
+    form{
+        margin-top: 30%;
+        max-width: 550px !important;
+    }
 }
