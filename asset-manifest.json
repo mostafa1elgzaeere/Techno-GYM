@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Techno-GYM/static/css/main.32be9a1f.css",
+    "main.js": "/Techno-GYM/static/js/main.fc32c885.js",
+    "static/media/background.avif": "/Techno-GYM/static/media/background.4aa31112cd86e18d6582.avif",
+    "static/media/c4.png": "/Techno-GYM/static/media/c4.ca9ba49aaf85aaea254b.png",
+    "static/media/c6.png": "/Techno-GYM/static/media/c6.5d49d73b528ff608aaf2.png",
+    "static/media/c2.png": "/Techno-GYM/static/media/c2.e631ceca59909cf5111e.png",
+    "static/media/c3.png": "/Techno-GYM/static/media/c3.75da5f6911d69c74051c.png",
+    "static/media/c5.png": "/Techno-GYM/static/media/c5.53d0e7729f2af9563bb4.png",
+    "static/media/c1.png": "/Techno-GYM/static/media/c1.a96aa5179b1f6bf2861e.png",
+    "static/media/fa-solid-900.ttf": "/Techno-GYM/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
+    "static/media/fa-brands-400.ttf": "/Techno-GYM/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
+    "static/media/fa-solid-900.woff2": "/Techno-GYM/static/media/fa-solid-900.bdb9e23299f9d1320a8b.woff2",
+    "static/media/fa-brands-400.woff2": "/Techno-GYM/static/media/fa-brands-400.7be2266f1be21c44ecd4.woff2",
+    "static/media/fa-regular-400.ttf": "/Techno-GYM/static/media/fa-regular-400.146404900f7550a9719d.ttf",
+    "static/media/fa-regular-400.woff2": "/Techno-GYM/static/media/fa-regular-400.8bedd7cfa43a6c358cdd.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Techno-GYM/static/media/fa-v4compatibility.6c0a7b774ffa1cf0a059.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Techno-GYM/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
+    "static/media/fit-cycling.svg": "/Techno-GYM/static/media/fit-cycling.a17b4bac118e25399634671bad88ba06.svg",
+    "static/media/fit-dumbell.svg": "/Techno-GYM/static/media/fit-dumbell.9fbe7ab017da132c7efd58c5ed954a1b.svg",
+    "static/media/fit-yoga.svg": "/Techno-GYM/static/media/fit-yoga.45151440c6fb90f0304e199d15c842a3.svg",
+    "static/media/fit-boxing.svg": "/Techno-GYM/static/media/fit-boxing.17d29fb3f3096f31f870b5ef9c28bdd7.svg",
+    "static/media/fit-massage.svg": "/Techno-GYM/static/media/fit-massage.0b72f66509161756a04eab59f2e6670d.svg",
+    "static/media/fit-swimming.svg": "/Techno-GYM/static/media/fit-swimming.5623bb506c8730fbbd3ed8428afb00aa.svg",
+    "index.html": "/Techno-GYM/index.html",
+    "main.32be9a1f.css.map": "/Techno-GYM/static/css/main.32be9a1f.css.map",
+    "main.fc32c885.js.map": "/Techno-GYM/static/js/main.fc32c885.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32be9a1f.css",
+    "static/js/main.fc32c885.js"
+  ]
+}
