@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Techno-GYM/static/css/main.32be9a1f.css",
-    "main.js": "/Techno-GYM/static/js/main.fc32c885.js",
+    "main.js": "/Techno-GYM/static/js/main.77111148.js",
     "static/media/background.avif": "/Techno-GYM/static/media/background.4aa31112cd86e18d6582.avif",
     "static/media/c4.png": "/Techno-GYM/static/media/c4.ca9ba49aaf85aaea254b.png",
     "static/media/c6.png": "/Techno-GYM/static/media/c6.5d49d73b528ff608aaf2.png",
@@ -25,10 +25,10 @@
     "static/media/fit-swimming.svg": "/Techno-GYM/static/media/fit-swimming.5623bb506c8730fbbd3ed8428afb00aa.svg",
     "index.html": "/Techno-GYM/index.html",
     "main.32be9a1f.css.map": "/Techno-GYM/static/css/main.32be9a1f.css.map",
-    "main.fc32c885.js.map": "/Techno-GYM/static/js/main.fc32c885.js.map"
+    "main.77111148.js.map": "/Techno-GYM/static/js/main.77111148.js.map"
   },
   "entrypoints": [
     "static/css/main.32be9a1f.css",
-    "static/js/main.fc32c885.js"
+    "static/js/main.77111148.js"
   ]
 }
