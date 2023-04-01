@@ -24,7 +24,7 @@ export default function Nav() {
       </ul>
       {/* Left links */}
       <div className="d-flex align-items-center menu-items-mobile menu-items">
-      <Link to="/" className='text-dark px-3'>Home</Link>
+      <Link to="/Techno-GYM/" className='text-dark px-3'>Home</Link>
 	  	<Link to="/programmes" className='text-dark px-3'>Programmes</Link>
         <Link to="/trainers" className='text-dark px-3'>Trainers</Link>
         <Link to="/about" className='text-dark px-3'>About</Link>
